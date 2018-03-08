@@ -1,2 +1,2 @@
-# indemnitech-root-insurance-bot
-IndemniTech - A Root Insurance Slack Bot
+# root-insurance-bot
+A Root Insurance Slack Bot
