@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  bot:
+    build: .
+    image: stroebs/insurebot
+
+  ngrok:
+    image: stroebs/ngrok
+    command: ngrok http bot:80 -log=stdout
+    ports:
+      - 4040:4040
